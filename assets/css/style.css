@@ -622,6 +622,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  max-width:fit-content;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -1140,6 +1141,16 @@ section {
   border: 0;
   padding: 10px 35px;
   color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.resume-btn {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  text-decoration: none;
   transition: 0.4s;
   border-radius: 50px;
 }
