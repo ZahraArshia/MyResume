@@ -499,19 +499,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Tehran, Iran</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>fzarshia@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+98 910 998 9856</p>
               </div>
 
             </div>
@@ -519,21 +519,31 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
+            <!-- <form action="https://formspree.io/f/mlezglbj" method="post" id="form">
+              <ul>
+                  <li><input type="text" name="name" id="name" placeholder="your name here" aria-label="name" required minlength="1" maxlength="30"></li>
+                  <li><input type="email" name="email" id="email" placeholder="your email here" aria-label="email" required></li>    
+                  <li><textarea id="msg" name="msg" placeholder="add your comment here" required minlength="1" maxlength="500"></textarea></li>
+              </ul>
+              <p class="warning" id="warning"></p> 
+              <button class="form-button" id="submit-btn" type="submit">Get In Touch</button>
+              <button class="form-button" id="reset-btn" type="reset">Reset Data</button>
+            </form> -->
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/f/mlezglbj" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required minlength="1" maxlength="30">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required minlength="1" maxlength="100">
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required minlength="1" maxlength="500"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
